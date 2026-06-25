@@ -22,10 +22,6 @@
         #panel-inisialisasi {
             margin-right: 2%;
         }
-
-        fieldset {
-            height: 150px; /* Menyamakan tinggi bingkai */
-        }
         .form-group {
             margin-bottom: 10px;
         }
@@ -76,7 +72,6 @@
                 </div>
                 <button id="btn-generate">Generate</button>
         </div>
-
         <div class="panel" id="panel-okupansi">
                 <h3>Okupansi</h3>
                 <br>
