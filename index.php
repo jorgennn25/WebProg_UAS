@@ -5,12 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Webprog UAS</title>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    
     <style>
-        body {
-            font-family: Times New Roman, sans-serif;
-            margin: 20px;
-        }
         .panel {
             float: left; 
             width: 48%;  
@@ -29,7 +24,6 @@
             clear: both; 
             padding-top: 20px;
         }
-
         table {
             width: 100%; 
             border-collapse: collapse;
@@ -46,8 +40,6 @@
     </style>
 </head>
 <body>
-
-    <div class="panel-container">
         <div class="panel" id="panel-inisialisasi">
                 <h3>Inisialisasi</h3>
                 <br>
@@ -112,7 +104,7 @@
                 
                     var targetId = "#cell-" + tBaris + "-" + tKolom;
                     
-                    if (jenis === "unavailable") {
+                    if (jenis == "unavailable") {
                         $(targetId).addClass("unavailable");
                     } else {
                         $(targetId).removeClass("unavailable");
