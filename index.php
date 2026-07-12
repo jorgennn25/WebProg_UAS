@@ -71,7 +71,6 @@
                 </div>
                 <button id="btn-simpan">Simpan</button>
         </div>
-    </div>
 
     <div id="denah-area">
         <h3>Denah</h3>
